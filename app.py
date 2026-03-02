@@ -5,7 +5,7 @@ import streamlit as st
 # ============================================================
 
 st.set_page_config(
-    page_title="Portfólio Python",
+    page_title="Atividade 1 Sérgio",
     page_icon="🐍",
     layout="centered",
 )
@@ -399,3 +399,4 @@ escolha = st.sidebar.radio("Selecione um exercício:", list(EXERCICIOS.keys()))
 
 # Executa a função do exercício selecionado
 EXERCICIOS[escolha]()
+
